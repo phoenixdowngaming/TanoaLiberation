@@ -9,10 +9,10 @@
 				</Key>
 				<Key ID="STR_MISSION_DESCRIPTION">
 						<Original>Through the power of Freedom and Democracy you shall liberate Tanoa from the OPFOR oppression.</Original>
-						<French>Avec le pouvoir de la Liberté et de la Démocratie votre mission est de libérer Altis de l'oppression de l'OPFOR.</French>
-						<German>Befreie Altis von der OPFOR-Unterdrückung mit der Kraft von Freiheit und Demokratie</German>
-						<Spanish>Con el poder de la Libertad y la Democracia, debes liberar Altis de la opresión del OPFOR</Spanish>
-						<Russian>С помощью сил "свободы" и "демократии" вы должны освободить Altis от угнетения OPFOR.</Russian>
+						<French>Avec le pouvoir de la Liberté et de la Démocratie votre mission est de libérer Tanoa de l'oppression de l'OPFOR.</French>
+						<German>Befreie Tanoa von der OPFOR-Unterdrückung mit der Kraft von Freiheit und Demokratie</German>
+						<Spanish>Con el poder de la Libertad y la Democracia, debes liberar Tanoa de la opresión del OPFOR</Spanish>
+						<Russian>С помощью сил "свободы" и "демократии" вы должны освободить Tanoa от угнетения OPFOR.</Russian>
 				</Key>
 				<Key ID="STR_Deploy_OnPoint">
 						<Original>Deploy</Original>
@@ -647,10 +647,10 @@
 						<Russian>СИНИЕ ПОБЕДИЛИ</Russian>
 				</Key>
 				<Key ID="STR_VICTORY_TEXT">
-						<Original>You have liberated Altis from the OPFOR oppression.</Original>
-						<French>Vous avez libéré Altis de l'oppression de l'OPFOR.</French>
-						<German>Du hast Altis von der OPFOR Besatzung befreit.</German>
-						<Spanish>Has liberado a Altis de la opresión del OPFOR</Spanish>
+						<Original>You have liberated Tanoa from the OPFOR oppression.</Original>
+						<French>Vous avez libéré Tanoa de l'oppression de l'OPFOR.</French>
+						<German>Du hast Tanoa von der OPFOR Besatzung befreit.</German>
+						<Spanish>Has liberado a Tanoa de la opresión del OPFOR</Spanish>
 						<Russian>Вы освободили Алтис от оккупации OPFOR.</Russian>
 				</Key>
 				<Key ID="STR_STATS_DAY">
@@ -809,7 +809,7 @@
 						<Russian>Вторичных заданий выполнено:</Russian>
 				</Key>
 				<Key ID="STR_STATS_18">
-						<Original>Prisonners captured:</Original>
+						<Original>Prisoners captured:</Original>
 						<French>Prisonniers capturés :</French>
 						<German>Gefangene gefasst:</German>
 						<Spanish>Prisioneros capturados:</Spanish>
@@ -866,11 +866,11 @@
 						<Russian>Кроликов убито:</Russian>
 				</Key>
 				<Key ID="STR_STATS_26">
-						<Original>Many thanks for playing LIBERATION!</Original>
-						<French>Merci beaucoup d'avoir joué à LIBERATION!</French>
-						<German>Vielen Dank fuers spielen von LIBERATION!</German>
-						<Spanish>¡Muchas gracias por jugar LIBERATION!</Spanish>
-						<Russian>Большое спасибо за то что играли в LIBERATION!</Russian>
+						<Original>Many thanks for playing TANOA LIBERATION!</Original>
+						<French>Merci beaucoup d'avoir joué à TANOA LIBERATION!</French>
+						<German>Vielen Dank fuers spielen von TANOA LIBERATION!</German>
+						<Spanish>¡Muchas gracias por jugar TANOA LIBERATION!</Spanish>
+						<Russian>Большое спасибо за то что играли в TANOA LIBERATION!</Russian>
 				</Key>
 				<Key ID="STR_STATS_27">
 						<Original>BLUFOR soldiers recruited:</Original>
@@ -2072,9 +2072,9 @@
 				<Key ID="STR_TUTO_TEXT1">
 						<Original>
 						&lt;br/&gt;
-						Hello gentlemen, and welcome to Altis.
+						Hello gentlemen, and welcome to Tanoa.
 						The OPFOR forces have surprised us with a brutal and overwhelming offensive. They now control the entire island, but thanks to your efforts, it won't last long.&lt;br/&gt; &lt;br/&gt;
-						Our objective is simple: liberate Altis.&lt;br/&gt; &lt;br/&gt;
+						Our objective is simple: liberate Tanoa.&lt;br/&gt; &lt;br/&gt;
 						The road to victory will be long and dangerous. You will have to conquer multiple sectors and acquire the necessary resources to improve the quantity and quality of the BLUFOR forces engaged in this campaign.&lt;br/&gt; &lt;br/&gt;
 						Moreover, OPFOR forces will most certainly react to our advance. You will have to engage into secondary operations to weaken a foe that fights with higher numbers and better equipment than you do.&lt;br/&gt; &lt;br/&gt;
 						In your efforts you will need the support of the local population, so always make sure to double-check what you're shooting at.&lt;br/&gt; &lt;br/&gt;
@@ -2082,9 +2082,9 @@
 						</Original>
 						<French>
 						&lt;br/&gt;
-						Bonjour messieurs, et bienvenue sur Altis.&lt;br/&gt; &lt;br/&gt;
+						Bonjour messieurs, et bienvenue sur Tanoa.&lt;br/&gt; &lt;br/&gt;
 						Les forces de l'OPFOR nous ont pris de court avec une offensive aussi brutale que surprenante. L’île est maintenant sous leur emprise, mais grâce à vous, cela ne va pas durer.&lt;br/gt; &lt;br/&gt;
-						L’objectif est simple : libérer Altis.&lt;br/&gt; &lt;br/&gt;
+						L’objectif est simple : libérer Tanoa.&lt;br/&gt; &lt;br/&gt;
 						La route vers la victoire sera longue et semée d’embûches. Il vous faudra conquérir de multiples secteurs pour acquérir les ressources nécessaires au développement en nombre et en qualité des forces de l’OTAN engagées dans cette opération.&lt;br/&gt; &lt;br/&gt;
 						De plus, les forces de l'OPFOR ne manqueront pas de réagir à notre avancée. Il faudra veiller à effectuer des opérations annexes pour affaiblir un ennemi bien plus nombreux et mieux équipé que nous.&lt;br/&gt; &lt;br/&gt;
 						Dans vos efforts, le soutien de la population locale sera primordial, alors soyez toujours sûrs de toujours savoir sur quoi vous tirez.&lt;br/&gt; &lt;br/&gt;
@@ -2102,9 +2102,9 @@
 						</German>
 						<Spanish>
 						&lt;br/&gt;
-						Buenos días señores, y bienvenidos a Altis:
+						Buenos días señores, y bienvenidos a Tanoa:
 						Las fuerzas del OPFOR nos han sorprendido con una brutal y fuerte ofensiva. Actualmente controlan toda la isla, pero gracias a tus esfuerzos, eso no será así por mucho tiempo.&lt;br/&gt; &lt;br/&gt;
-						Nuestro objetivo es sencillo: liberar Altis.&lt;br/&gt; &lt;br/&gt;
+						Nuestro objetivo es sencillo: liberar Tanoa.&lt;br/&gt; &lt;br/&gt;
 						El camino hacia la victoria será largo y peligroso. Tendrás que conquistar múltiples sectores y obtener los recursos necesarios para mejorar la calidad y cantidad de las fuerzas BLUFOR involucradas en esta campaña.&lt;br/&gt; &lt;br/&gt;
 						Es más, las fuerzas del OPFOR reaccionarán ante tu avance. Deberás involucrarte en operaciones secundarias para debilitar a un enemigo que lucha con mayores números y mejor equipamiento que tú.&lt;br/&gt; &lt;br/&gt;
 						Durante tus esfuerzos necesitarás el apoyo de la población local, asegúrate de comprobar siempre a quien estás disparando. &lt;br/&gt; &lt;br/&gt;
@@ -2112,9 +2112,9 @@
 						</Spanish>
 						<Russian>
 						&lt;br/&gt;
-						Приветствую вас господа, и добро пожаловать на остров Altis. &lt;br/&gt; &lt;br/&gt;
+						Приветствую вас господа, и добро пожаловать на остров Tanoa. &lt;br/&gt; &lt;br/&gt;
 						Силы OPFOR внезапно напали на остров и жестоко подавили все очаги сопротивления. Они теперь контролируют весь остров, но благодаря вашим усилиям, это продлится недолго. &lt;br/&gt; &lt;br/&gt;
-						Ваша задача проста: освободить Altis. &lt;br/&gt; &lt;br/&gt;
+						Ваша задача проста: освободить Tanoa. &lt;br/&gt; &lt;br/&gt;
 						Путь к победе будет долгим и опасным. Вы должны будете захватить множество секторов и приобрести необходимые ресурсы для улучшения количества и качества сил BLUFOR, участвующих в этой кампании. &lt;br/&gt; &lt;br/&gt;
 						Кроме того, силы OPFOR наверняка будут быстро реагировать на ваше продвижение. Вам придется заниматься диверсионной деятельностью, чтобы ослабить врага, который превосходит нас в численности и лучше вооружён. &lt;br/&gt; &lt;br/&gt;
 						Вы будете нуждаться в поддержке местного населения, поэтому всегда убеждайтесь, и дважды проверяйте, в кого собираетесь стрелять. &lt;br/&gt; &lt;br/&gt;
@@ -2174,12 +2174,12 @@
 				</Key>
 				<Key ID="STR_TUTO_TEXT3">
 						<Original>&lt;br/&gt;
-						The main objective of the campaign is to kick OPFOR out of Altis. To achieve this, you will have to liberate the 7 major towns on the island: Kavala, Athira, Pyrgos, Agios Dionysios, Zaros, Paros and Molos. This is the only victory condition for the campaign.&lt;br/&gt; &lt;br/&gt;
+						The main objective of the campaign is to kick OPFOR out of Tanoa. To achieve this, you will have to liberate the 7 major towns on the island: Kavala, Athira, Pyrgos, Agios Dionysios, Zaros, Paros and Molos. This is the only victory condition for the campaign.&lt;br/&gt; &lt;br/&gt;
 						But those cities are tough nuts to crack with only limited resources and a well established OPFOR. &lt;br/&gt; &lt;br/&gt;
 						To succeed, you will have to capture large number of different sectors, each with their own use.&lt;br/&gt; &lt;br/&gt;
 						</Original>
 						<French>&lt;br/&gt;
-						L’objectif premier de la campagne est de bouter l'OPFOR hors d'Altis. Pour cela, vous devez libérer les 7 villes principales : Kavala, Athira, Pyrgos, Agios Dionysios, Zaros, Paros et Molos. C’est l’unique condition de victoire de cette campagne.&lt;br/&gt; &lt;br/&gt;
+						L’objectif premier de la campagne est de bouter l'OPFOR hors d'Tanoa. Pour cela, vous devez libérer les 7 villes principales : Kavala, Athira, Pyrgos, Agios Dionysios, Zaros, Paros et Molos. C’est l’unique condition de victoire de cette campagne.&lt;br/&gt; &lt;br/&gt;
 						Mais ces villes sont bien difficile à attaquer avec des ressources limitées et une OPFOR bien établie. Pour arriver à vos fins, vous devrez donc capturer un grand nombre de secteurs, avec chacun leur propre utilité.&lt;br/&gt; &lt;br/&gt;
 						</French>
 						<German>&lt;br/&gt;
@@ -2188,7 +2188,7 @@
 						Um Erfolg zu haben, werden Sie eine große Anzahl weiterer Sektoren erobern müssen. Alle mit ihrer eigenen Nützlichkeit.&lt;br/&gt; &lt;br/&gt;
 						</German>
 						<Spanish>&lt;br/&gt;
-						El objetivo principal de la campaña es expulsar al OPFOR de Altis. Para cconseguirlo, deberás liberar las 7 poblaciones principales de la isla: Kavala, Athira, Pyrgos, Agios Dionysios, Zaros, Paros y Molos. Esta es la única condición de victoria para completar la campaña.&lt;br/&gt; &lt;br/&gt;
+						El objetivo principal de la campaña es expulsar al OPFOR de Tanoa. Para cconseguirlo, deberás liberar las 7 poblaciones principales de la isla: Kavala, Athira, Pyrgos, Agios Dionysios, Zaros, Paros y Molos. Esta es la única condición de victoria para completar la campaña.&lt;br/&gt; &lt;br/&gt;
 						Pero estas ciudades serás bastante dificiles de atacar con los recursos limitados que disponemos y el OPFOR esta fuertemente afianzado en la zona.&lt;br/&gt; &lt;br/&gt;
 						Para lograrlo, deberas capturar un gran numero de sectores diferentes, cada uno con sus propios usos.&lt;br/&gt; &lt;br/&gt;
 						</Spanish>
