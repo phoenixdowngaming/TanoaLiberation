@@ -37,7 +37,16 @@ if (!isDedicated && hasInterface) then {
 } else {
 	setViewDistance 1600;
 };
-/*
-if (!hasInterface && isMultiplayer) then {
-	[] execVM "_spawnUnits.sqf";
-};
+
+{
+	if (side _x == civilian) then 
+	{
+		_x addEventHandler ["FiredNear", 
+			 {
+				_shooter = _this select 1;
+				_distance = _this select 2;
+				if (_distance < 21) then {[_this select 0,_this select 1] execVM "scripts\concealed_carry.sqf"} else {};
+			 } 
+		];
+	}
+} forEach AllUnits;
