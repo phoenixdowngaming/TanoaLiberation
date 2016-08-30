@@ -100,9 +100,8 @@ FAR_Player_Unconscious =
 		_unit allowDamage false;
 		_unit setCaptive true;
 		_unit playMove "AinjPpneMstpSnonWrflDnon_rolltoback";
-
 		sleep 4;
-
+		
 		if (isPlayer _unit) then
 		{
 			disableUserInput false;
@@ -112,9 +111,16 @@ FAR_Player_Unconscious =
 			// Mute ACRE
 			_unit setVariable ["ace_sys_wounds_uncon", true];
 		};
-
-		_unit switchMove "AinjPpneMstpSnonWrflDnon";
-		_unit enableSimulation false;
+		_rnum = (floor random 5);
+		switch (_rnum) do
+		{
+			case 0: {[[[_unit], {(_this select 0) switchMove "Acts_CivilInjuredLegs_1";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;};
+			case 1: {[[[_unit], {(_this select 0) switchMove "Acts_CivilInjuredArms_1";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;};
+			case 2: {[[[_unit], {(_this select 0) switchMove "Acts_CivilInjuredChest_1";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;};
+			case 3: {[[[_unit], {(_this select 0) switchMove "Acts_CivilInjuredHead_1";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;};
+			case 4: {[[[_unit], {(_this select 0) switchMove "Acts_CivilInjuredGeneral_1";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;};
+		};
+		
 		_unit setVariable ["FAR_isUnconscious", 1, true];
 
 		// Call this code only on players
@@ -180,8 +186,9 @@ FAR_Player_Unconscious =
 
 					GRLIB_replace_ai = false;
 				} else {
-					_unit playMove "amovppnemstpsraswrfldnon";
-					_unit playMove "";
+					[[[_unit], {(_this select 0) switchMove "AmovPincMstpSrasWrflDnon";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;
+					sleep 1;
+					[[[_unit], {(_this select 0) switchMove "";}], "BIS_fnc_call", nil, false, true] call BIS_fnc_MP;
 				};
 			};
 		}
@@ -243,7 +250,7 @@ FAR_HandleRevive =
 			_target setDamage 0.65;
 			_target setCaptive false;
 
-			_target playMove "amovppnemstpsraswrfldnon";
+			_target switchMove "amovppnemstpsraswrfldnon";
 		};
 
 	};
